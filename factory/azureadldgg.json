@@ -1,0 +1,9 @@
+{
+	"name": "azureadldgg",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3a16aead-944c-4cbd-9df6-89be25e1f021",
+		"tenantId": "8279d7f8-4beb-406c-952b-073c9188cb6b"
+	}
+}
