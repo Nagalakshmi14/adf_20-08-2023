@@ -1,0 +1,54 @@
+{
+	"name": "AzureSqlTable_employee",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase_employee",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "EmployeeNO",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ENAME",
+				"type": "varchar"
+			},
+			{
+				"name": "JOB",
+				"type": "varchar"
+			},
+			{
+				"name": "MGR",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "HIREDATE",
+				"type": "date"
+			},
+			{
+				"name": "SAL",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "COMM",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "DepartmentNO",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "employee"
+		}
+	}
+}
